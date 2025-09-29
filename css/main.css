@@ -1,0 +1,43 @@
+/* === Estilos generales === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #bfd1e5;
+  color: #61443e;
+  overflow: hidden; /* evita scroll */
+}
+
+/* === Contenedor principal === */
+#container {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+/* === Barra de información arriba === */
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#info a {
+  color: #a06851;
+  text-decoration: none;
+}
+
+#info a:hover {
+  text-decoration: underline;
+}
+
+/* === Panel de estadísticas === */
+#stats {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
